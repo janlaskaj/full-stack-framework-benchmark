@@ -1,0 +1,21 @@
+{
+  "name": "full-stack-framework-benchmark",
+  "version": "1.0.0",
+  "description": "Methodology for comparing full-stacko frameworks.",
+  "main": "benchmark.js",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node benchmark"
+  },
+  "author": "Jan Laskaj",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "chrome-launcher": "0.15.2",
+    "lighthouse": "10.3.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "markdown-table": "^3.0.3"
+  }
+}
